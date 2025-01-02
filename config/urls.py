@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('rawapi/',include('blog.urls')),
     path('api1/', include("api.urls")),
+    path('api/', include("api_viewset.urls")),
 ]
